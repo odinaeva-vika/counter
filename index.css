@@ -1,0 +1,49 @@
+.container {
+  max-width: 479px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 36px;
+  height: 100vh;
+  justify-content: center;
+}
+
+.counter{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.btn-pluse{
+  padding: 28px 0 28px 0;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFFFFF;
+
+  background: #4191FF;
+  border-radius: 20px;
+}
+
+.btn-minus{
+  padding: 28px 0 28px 0;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFFFFF;
+
+  background: #D45366;
+  border-radius: 20px;
+}
